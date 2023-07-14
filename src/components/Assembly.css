@@ -1,0 +1,63 @@
+.part-panel {
+    margin-bottom: 20px;
+  }
+  
+  .selected-parts {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .selected-parts::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  .selected-parts::-webkit-scrollbar-thumb {
+    background-color: #fdfcfc;
+  }
+  
+  .assemble-area {
+    width: 100%;
+    height: 400px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .basket {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  .basket.is-over {
+    border: 2px dashed #fcfbfb;
+  }
+  
+  .basket::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .basket::-webkit-scrollbar-thumb {
+    background-color: #fefdfd;
+  }
+  
+  button {
+    display: inline;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

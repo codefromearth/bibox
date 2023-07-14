@@ -1,0 +1,32 @@
+.final-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .part img {
+    width: 200px;
+    height: auto;
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
